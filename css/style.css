@@ -92,6 +92,7 @@ h3{
 
 .item-image{
     overflow: hidden;
+    height: 12rem;
 }
 
 .item:hover {
@@ -99,7 +100,7 @@ h3{
 }
 
 .item-image img{
-    height: 7.5rem;
+    /* height: 7.5rem; */
     transition: transform 0.2s ease-in-out;
 }
 
