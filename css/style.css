@@ -4,6 +4,41 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.hero-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* .navbar-toggler-icon{
+    background-color: #fff;
+} */
+
+.hero-container{
+    background-color: #264653;
+}
+
+.nav-item .nav-link{
+    color: #fff;
+}
+
+.text-gray{
+    color: #E0E0E0;
+    font-size: 16px;
+}
+
+.orange-btn{
+    background-color: #E76F51;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
 .gray-image {
     filter: grayscale(100%);
 }

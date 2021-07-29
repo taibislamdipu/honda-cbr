@@ -25,26 +25,58 @@
 
 <body>
 
-    <header class="bg-light">
-        <section class="container py-5">
+    <header class="hero-container">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item ms-lg-5">
+                    <a class="btn  orange-btn nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <section class="container py-5 ">
             <div class="row d-flex justify-content-between align-items-center gy-5">
                 <div class="col-lg-6">
-                    <p class="">
+                    <p class="text-gray">
                         Computer-controlled digital transistorized with electronic advance
                     </p>
-                    <h1>
+                    <h1 class="hero-title">
                         Honda CBR 300R
                     </h1>
-                    <p>
+                    <p class="text-gray">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nostrum ipsam non ex ad quos
                         velit molestias itaque deleniti, dolore sit saepe aliquam architecto maiores eveniet molestiae.
                         Unde, laborum amet.
 
                     </p>
 
-                    <!-- modal start -->
+                    
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn  orange-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Purchase
                     </button>
 
@@ -333,7 +365,7 @@
                 </div>
 
                 <!-- nav -->
-                <div class=" py-5">
+                <!-- <div class=" py-5">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container-fluid">
                             <h2 class="navbar-brand">All Models</h2>
@@ -358,7 +390,7 @@
                             </div>
                         </div>
                     </nav>
-                </div>
+                </div> -->
 
 
                 <!-- sports bike -->
@@ -619,7 +651,7 @@
                         <div class="input-group mb-3">
                             <select class="form-select" id="inputGroupSelect02">
                                 <option selected>Dhaka</option>
-                                <option value="1">Dhaka</option>
+                                <option value="1">Khulna</option>
                                 <option value="2">Comilla</option>
                                 <option value="3">Borishal</option>
                             </select>
@@ -660,7 +692,7 @@
     </main>
 
     <footer class="container">
-        <h1>this is footer</h1>
+        <h3>this is footer</h3>
     </footer>
 
 
