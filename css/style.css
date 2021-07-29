@@ -1,0 +1,33 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gray-image {
+    filter: grayscale(100%);
+}
+
+.bike-card:hover hr{
+    color: royalblue;
+}
+
+
+/* bike card hover   */
+.item-image{
+    overflow: hidden;
+}
+
+.item-image img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover img{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+   
+}
+
+/* bike card hover   */
