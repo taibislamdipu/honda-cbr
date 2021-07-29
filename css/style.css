@@ -74,9 +74,16 @@ h3{
     filter: grayscale(100%);
 }
 
-.bike-card:hover hr{
-    color: royalblue;
+.bike-card:hover .card-hr-line{
+    color: blue;
+} 
+
+.empty-star{
+    color: #FFC107;
 }
+
+
+
 
 
 /* ---------------------------- 
@@ -85,6 +92,10 @@ h3{
 
 .item-image{
     overflow: hidden;
+}
+
+.item:hover {
+    cursor: pointer;
 }
 
 .item-image img{
